@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Text, View, TextInput, Button } from 'react-native';
 import ResultImc from '../ResultImc/'
+
 export default function Form() {
 
     const [height ,setHeight] = useState(null)
