@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Text, View, TextInput, Button } from 'react-native';
-import ResultImc from '../ResultImc/'
+import { Text, TextInput, View, Button } from 'react-native';
+import ResultImc from './ResultImc/';
 
 export default function Form() {
 
@@ -30,7 +30,7 @@ export default function Form() {
      }
  
   return (
-    <View >
+    <View>
       <View>
       <Text>Altura</Text>
       <TextInput
